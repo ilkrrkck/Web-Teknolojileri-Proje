@@ -1,0 +1,44 @@
+.loginn{/*BİDAHA BAK*/
+    
+    padding-left: 500px;
+}
+.iletisimlink:hover{
+    background-color: darkslategray;
+}
+.iletisimMenu{
+    float: right;
+    font-size: 200%;
+    background-color: white;
+}
+.posta{
+    color: blue;
+}
+.wp{
+    color: green;
+}
+.github{
+    color: gray;
+}
+.instagram{
+    color: hotpink;
+}
+.body{
+    background-color: white;
+    position: relative;
+}
+.solScroll{
+    border-style: solid;
+    border-radius: 3%;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+.solScroll:hover{
+    text-decoration: none;
+}
+.bilgi{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: red;
+}
