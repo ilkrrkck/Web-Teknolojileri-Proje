@@ -1,17 +1,20 @@
+.loginn{/*BİDAHA BAK*/
+    
+    padding-left: 500px;
+}
+.iletisimlink:hover{
+    background-color: darkslategray;
+}
 .iletisimMenu{
-    margin-top: 15%; 
-    margin-left: -16px; 
-    position:fixed ;
-    font-size: 250%;
-    width: 60px;
-    z-index: 3;
-    height: 380px;
+    float: right;
+    font-size: 200%;
+    background-color: white;
 }
 .posta{
     color: blue;
-}   
+}
 .wp{
-    color: lightgreen;
+    color: green;
 }
 .github{
     color: gray;
@@ -19,43 +22,23 @@
 .instagram{
     color: hotpink;
 }
-.govde{
-    background-color: whitesmoke;
-    position: relative;
-}
-.paragraflar{
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-top:15% ;
-}
-.baslik{
-    font-style: oblique;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
-    
-}
-.paragraf1{
-    margin-top:-35px ;
-}
-.paragraf2{
-    margin-top: 18px ; 
-}
-.altTaraf{
-    z-index: 0;
-}
-/*ÖZGEÇMİŞ SAYFASI*/
 .body{
+    background-color: white;
     position: relative;
 }
-.ustMenu{
-    width: 100.710%;
-    float: none;
-    z-index: 3;
+.solScroll{
+    border-style: solid;
+    border-radius: 3%;
+    float: left;
+    position: relative;
+    text-decoration: none;
 }
-.sectionlar{
-    margin-left: 10%;
+.solScroll:hover{
+    text-decoration: none;
 }
-.tablo{
-    margin-top: 3%;
+.bilgi{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: red;
 }

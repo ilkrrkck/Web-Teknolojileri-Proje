@@ -9,85 +9,43 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
-
-
-    <body class="col-sm-12 col-md-12 col-lg-12 col-xl-12 govde container">
+    <body class="body">
         <!--------------------------------------------NAV BAŞLANGICI-------------------------------------------->
-        <nav style="position: fixed;" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-            <a style="margin-right: 3%;" class="navbar-brand" href="#"><i style="font-size: x-large;" class="fa fa-home"></i></a>
+        <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+            <a class="navbar-brand homeTusu" href="#"><i style="padding-right: 212px;font-size: x-large;" class="fa fa-home"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Linkler -->
             <div class="collapse navbar-collapse " id="collapsibleNavbar">
               <ul class="navbar-nav"> 
-                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link ustMenuEleman" href="#">Hakkımda</a></li>
-                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link" href="Ozgecmis.html">Özgeçmiş</a></li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="Sehrim.html">
-                     Şehrim </a> 
-                     <ul class="dropdown-menu bg-dark">
-                       <li style="border-color: black;" class="nav-item active"><a class="bg-dark" href="Mirasimiz.html">Mirasımız</a></li>
-                       <li class="nav-item active"><a class="bg-dark" href="Takimimiz.html">Takımımız</a></li>
-                     </ul>
-                </li>  
-                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link" href="Iletisim.html">İletişim</a></li>
-                <li class="nav-item active "><a style=" margin-right: 20px;" class="loginn nav-link" href="Login.html" id="Login_Tusu" >Giriş Yap</a></li>
+                <li class="nav-item"><a class="nav-link" href="Hakkimda.html">Hakkımda</a></li>
+                <li class="nav-item"><a class="nav-link" href="Ozgecmis.html">Özgeçmiş</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="Sehrim.html">
+                     Şehrim </a> </li>  
+                <li class="nav-item"><a class="nav-link" href="İletisim.html">İletişim</a></li>
+                <li class="nav-item "><a class="nav-link loginn" href="Login.html" id="Login_Tusu" >Giriş Yap</a></li>
               </ul>
             </div>
-            <div class="nav navbar-nav navbar-right">
-            </div>
           </nav>
-          
+          <br><br><br><br>
           <!--------------------------------------------NAV BİTİŞİ-------------------------------------------->   
 
           <!--------------------------------------------SAĞ İLETİŞİM BAŞLANGIÇ--------------------------------------------> 
-          <ul  class="list-group iletisimMenu">
-            <li class="list-group-item list-group-item-warning bg-dark iletisimLink"><a href="https://wa.me/00905437981492"><i class="fa fa-whatsapp wp "></i></a></li>   
-            <li class="list-group-item list-group-item-warning bg-dark iletisimLink"><a href="mailto:mail-ilker.kucucuk@ogr.sakarya.edu.tr"><i class="fa fa-at posta"></i></a></li></a>          
-            <li class="list-group-item list-group-item-warning bg-dark iletisimLink"><a href="https://github.com/ilkrrkck"><i class="fa fa-github github"></i></a></li>
-            <li class="list-group-item list-group-item-warning bg-dark iletisimLink"><a href="https://www.instagram.com/ilkrrkck/?hl=tr"><i class="fa fa-instagram instagram"></i></a></li>
+          <ul class="list-group fixed-right iletisimMenu"data-spy="affix">
+            <li class="list-group-item list-group-item-warning iletisimlink"><a href="https://wa.me/00905437981492"><i class="fa fa-whatsapp wp "></i></a></li>   
+            <li class="list-group-item list-group-item-warning iletisimlink"><a href="mailto:mail-ilker.kucucuk@ogr.sakarya.edu.tr"><i class="fa fa-at posta"></i></a></li></a>          
+            <li class="list-group-item list-group-item-warning iletisimlink"><a href="https://github.com/ilkrrkck"><i class="fa fa-github github"></i></a></li>
+            <li class="list-group-item list-group-item-warning iletisimlink"><a href="https://www.instagram.com/ilkrrkck/?hl=tr"><i class="fa fa-instagram instagram"></i></a></li>
           </ul>
           <!--------------------------------------------SAĞ İLETİŞİM BİTİŞ--------------------------------------------> 
 
-           
           <!--------------------------------------------PARAGRAFLAR BAŞLANGIÇ--------------------------------------------> 
-          <div class="paragraflar">
-            <div style="z-index: 1;" class="row shadow-lg p-4 mb-auto bg-light rounded paragraf1">
-              <div class="col-sm-4 baslik">BEN KİMİM?</div>
-              <div class="col-sm-8">
-                <p>
-                  Ben İlker Küçücük.17 Mayıs 2000'de İstanbul Kadıköy'de doğdum.12 yaşıma kadar Kadıköy'de yaşadım.İlkokulumu İnönü İlköğretim Okulu'nda okudum.12 yaşımdan sonra Ümraniye'ye taşındık.
-                  6.sınıftan itibaren Ahmet Yavuz Ortaokulu'nda okudum ve buradan mezun oldum.O sene ilk kez çıkarılan TEOG sınavıyla Asiye Ağaoğlu Anadolu Lisesi'ni kazandım.2018 yılında lisemden mezun oldum.
-                  Yine o sene ilk kez hazırlanan YKS sınavıyla Balıkesir Üniversitesi Bilgisayar Mühendisliği bölümünü kazandım.Bu bölümü 6 yaşımdan beri bilgisayar ve teknolojiye olan ilgi,sevgi ve merakımdan 
-                  dolayı seçtim.Bir sene Balıkesir Üniversitesi'nde okuduktan sonra 2019 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği bölümüne geçiş yaptım.Eğitimi burada sürdürmekteyim. 
-                </p>
-              </div>
-            </div>
-            <div style="z-index: 1;"class="row shadow-lg p-4 mb-auto bg-secondary rounded paragraf2" >
-              <div class="col-sm-8 text-light">
-                <p>
-                  Kendimi bildim bileli bilgisayarlara ilgi duyuyorum.Onları kurcalıyorum ve sorunlarını gideriyorum.Bu yüzden de hedeflerimi hep bilgisayar mühendisliği üzerine kurdum.
-                  Üniversite tercihlerinde de 19 seçeneğimin hepsi bilgisayar mühendisliği bölümüydü.Bir süre oyunlara olan ilgimden dolayı oyun geliştirme için unity 3d öğrenmeye başladım.
-                  Üniversitede 2.senemde Siber Güvenlik ve Ağ Güvenliği bölümlerine ilgim başladı.Bunların yanında IoT alanında ve Askeri alanda Siber Güvenlik alanında çalışmak ve kariyer yapmak en büyük hedefim.
-                </p>
-                <p>
-                  Günümün büyük bir kısmı bilgisayarda geçiyor.Bilgisayar sorunları çözmek onları kurcalamak hobilerim arasında.Bilgisayar oyunu oynamak,müzik dinlemek en büyük 2 zevkim 
-                  Boş zamanlarımda İngilizce ve Almanca çalışmayı spor yapmayı severim.
-                </p>
-              </div>
-              <div class="col-sm-4 text-light baslik">HOBİ VE İLGİ ALANLARIM</div>
-            </div>
-           </div>
-           <!--------------------------------------------PARAGRAFLA60R BİTİŞ-------------------------------------------->
 
-           <!--------------------------------------------ALT KISIM BAŞLANGIÇ-------------------------------------------->
-           <footer class="altTaraf">
-              <div style=" margin-top: 102px;" class="text-light bg-dark footer-copyright text-center py-4">Sakarya Üniversitesi Web Teknolojileri 2019-2020 Bahar Yarıyılı Projesi              
-              </div>  
-           </footer> 
-      </body>          
+          </body>
+          
+          
 </html>
