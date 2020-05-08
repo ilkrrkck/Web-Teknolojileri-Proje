@@ -19,8 +19,8 @@
 .instagram{
     color: hotpink;
 }
-.govde{
-    background-color: whitesmoke;
+#hakkindaBody{
+    background-color:rgb(167, 114, 17) ;
     position: relative;
 }
 .paragraflar{
@@ -28,26 +28,14 @@
     margin-right: 11%;
     margin-top:15% ;
 }
-.baslik{
-    font-style: oblique;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
-    
-}
-.paragraf1{
-    margin-top:-35px ;
-}
-.paragraf2{
-    margin-top: 18px ; 
+.paragraf{
+    z-index: 1;
+    font-size: larger;
 }
 .altTaraf{
     z-index: 0;
 }
 /*ÖZGEÇMİŞ SAYFASI*/
-.body{
-    position: relative;
-}
 .ustMenu{
     width: 100.710%;
     float: none;

@@ -1,20 +1,24 @@
 <!DOCTYPE html> 
 <html>
     <head>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">   
         <link rel="stylesheet" href="Style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        
     </head>
 
 
-    <body class="col-sm-12 col-md-12 col-lg-12 col-xl-12 govde container">
+    <body id="hakkindaBody" class=" col-sm-12 col-md-12 col-lg-12 col-xl-12  container">
         <!--------------------------------------------NAV BAŞLANGICI-------------------------------------------->
         <nav style="position: fixed;" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <a style="margin-right: 3%;" class="navbar-brand" href="#"><i style="font-size: x-large;" class="fa fa-home"></i></a>
@@ -56,36 +60,53 @@
            
           <!--------------------------------------------PARAGRAFLAR BAŞLANGIÇ--------------------------------------------> 
           <div class="paragraflar">
-            <div style="z-index: 1;" class="row shadow-lg p-4 mb-auto bg-light rounded paragraf1">
-              <div class="col-sm-4 baslik">BEN KİMİM?</div>
-              <div class="col-sm-8">
-                <p>
-                  Ben İlker Küçücük.17 Mayıs 2000'de İstanbul Kadıköy'de doğdum.12 yaşıma kadar Kadıköy'de yaşadım.İlkokulumu İnönü İlköğretim Okulu'nda okudum.12 yaşımdan sonra Ümraniye'ye taşındık.
+            <div class="container p-3 my-0 bg-dark text-white paragraf">
+              <h1 style="color: white;">
+                <i class="fa fa-user"></i>  BEN KİMİM?
+                <hr style="border-width: 3px; border-color: white;">
+              </h1>
+              <p class="paragraf">
+                Ben İlker Küçücük.17 Mayıs 2000'de İstanbul Kadıköy'de doğdum.12 yaşıma kadar Kadıköy'de yaşadım.İlkokulumu İnönü İlköğretim Okulu'nda okudum.12 yaşımdan sonra Ümraniye'ye taşındık.
                   6.sınıftan itibaren Ahmet Yavuz Ortaokulu'nda okudum ve buradan mezun oldum.O sene ilk kez çıkarılan TEOG sınavıyla Asiye Ağaoğlu Anadolu Lisesi'ni kazandım.2018 yılında lisemden mezun oldum.
                   Yine o sene ilk kez hazırlanan YKS sınavıyla Balıkesir Üniversitesi Bilgisayar Mühendisliği bölümünü kazandım.Bu bölümü 6 yaşımdan beri bilgisayar ve teknolojiye olan ilgi,sevgi ve merakımdan 
                   dolayı seçtim.Bir sene Balıkesir Üniversitesi'nde okuduktan sonra 2019 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği bölümüne geçiş yaptım.Eğitimi burada sürdürmekteyim. 
-                </p>
-              </div>
+              </p>
             </div>
-            <div style="z-index: 1;"class="row shadow-lg p-4 mb-auto bg-secondary rounded paragraf2" >
-              <div class="col-sm-8 text-light">
-                <p>
-                  Kendimi bildim bileli bilgisayarlara ilgi duyuyorum.Onları kurcalıyorum ve sorunlarını gideriyorum.Bu yüzden de hedeflerimi hep bilgisayar mühendisliği üzerine kurdum.
-                  Üniversite tercihlerinde de 19 seçeneğimin hepsi bilgisayar mühendisliği bölümüydü.Bir süre oyunlara olan ilgimden dolayı oyun geliştirme için unity 3d öğrenmeye başladım.
-                  Üniversitede 2.senemde Siber Güvenlik ve Ağ Güvenliği bölümlerine ilgim başladı.Bunların yanında IoT alanında ve Askeri alanda Siber Güvenlik alanında çalışmak ve kariyer yapmak en büyük hedefim.
-                </p>
-                <p>
-                  Günümün büyük bir kısmı bilgisayarda geçiyor.Bilgisayar sorunları çözmek onları kurcalamak hobilerim arasında.Bilgisayar oyunu oynamak,müzik dinlemek en büyük 2 zevkim 
-                  Boş zamanlarımda İngilizce ve Almanca çalışmayı spor yapmayı severim.
-                </p>
-              </div>
-              <div class="col-sm-4 text-light baslik">HOBİ VE İLGİ ALANLARIM</div>
+
+            <div class="container p-3 my-5 bg-warning text-white">
+              <h1 style="color: black;">
+                <i class="fas fa-football-ball"></i>  Hobi ve İlgi Alanlarım
+              </h1>            
+              <h3 style="color: black;"><hr style="border-width: 3px; border-color: black;">
+                <table style="border: none;" class="table table-responsive ">
+                  <tr style="height: 100px;">
+                    <td style="border: none;" type="none"><i class="fas fa-basketball-ball"></i>  Basketbol</td>
+                    <td style="border: none;" type="none"><i class="fas fa-futbol"></i>  Futbol</td> 
+                    <td style="border: none;" type="none"><i class="fas fa-headphones"></i>  Müzik Dinlemek</td>  
+                    <td style="border: none;" type="none"><i class="fas fa-gamepad"></i>  Oyun Oynamak</td>
+                  </tr>
+                  
+                  <tr>
+                    <td style="border: none;" type="none"><i class="fas fa-laptop-code"></i>  Programlama</td>
+                    <td style="border: none;" type="none"><i class="fas fa-shield-alt"></i>  Siber Güvenlik</td>
+                    <td style="border: none;" type="none"><i class="fas fa-laptop-code"></i>  IoT</td>
+                    <td style="border: none;" type="none"><i class="fas fa-cloud"></i>  IT</td>
+                  </tr>
+
+                  <tr>
+                    <td style="border: none;"><button type="button" class="btn btn-outline-primary"><a href="http://www.zafercomert.com/IcerikDetay.aspx?zcms=10">nedir?</a></button></td>
+                    <td style="border: none;"><button type="button" class="btn btn-outline-primary"><a href="https://sibertehdit.com/siber-guvenlik-nedir/">nedir?</a></button></td>
+                    <td style="border: none;"><button type="button" class="btn btn-outline-primary"><a href="https://proente.com/nesnelerin-interneti-nedir/">nedir?</a> </button></td>
+                    <td style="border: none;"><button type="button" class="btn btn-outline-primary"><a href="https://www.elektrikport.com/teknik-kutuphane/it-nedir-it-uzmani-nedir/12126#ad-image-0">nedir?</a></button></td>
+                  </tr>
+                </table>
+              </h3>
             </div>
-           </div>
+          </div>
            <!--------------------------------------------PARAGRAFLA60R BİTİŞ-------------------------------------------->
 
            <!--------------------------------------------ALT KISIM BAŞLANGIÇ-------------------------------------------->
-           <footer class="altTaraf">
+           <footer class="altTaraf ">
               <div style=" margin-top: 102px;" class="text-light bg-dark footer-copyright text-center py-4">Sakarya Üniversitesi Web Teknolojileri 2019-2020 Bahar Yarıyılı Projesi              
               </div>  
            </footer> 
