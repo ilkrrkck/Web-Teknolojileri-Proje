@@ -72,3 +72,8 @@
     text-decoration: none;
     color: none;
 }
+.cerceve{
+    border-style: ridge;
+    border-width: 50px;
+    margin-top: 5%;
+}
