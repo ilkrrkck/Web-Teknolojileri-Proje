@@ -47,3 +47,28 @@
 .tablo{
     margin-top: 3%;
 }
+/*KASTAMONU.HTML*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.kastamonuP{
+    font: x-large;
+}
+.paragrafK{
+    margin-right: 16%;
+    font-size: large;
+    font-weight: italic;
+}
+.yemekSlider{
+  width: 40%;
+  height: 40%;
+}
+.linkler{
+    text-decoration: none;
+    color: active;
+}
+.linkler:hover{
+    text-decoration: none;
+    color: none;
+}
