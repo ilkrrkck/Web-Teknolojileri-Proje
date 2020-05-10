@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <title>İletişim</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="jquery.min.js" type=""></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="FormKontrol.js"></script>
+
+    
+</head>
+<body style="background-color: rgb(63,62,63);margin-top: 3%;" >
+    
+  <body  class=" col-sm-12 col-md-12 col-lg-12 col-xl-12  container">
+        <!--------------------------------------------NAV BAŞLANGICI-------------------------------------------->
+        <nav style="position: fixed;" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a style="margin-right: 3%;" href="Hakkımda.html" class="navbar-brand" href="#"><i style="font-size: x-large;" class="fa fa-home"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Linkler -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+              <ul class="navbar-nav"> 
+                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link ustMenuEleman" href="Hakkımda.html">Hakkımda</a></li>
+                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link" href="Ozgecmis.html">Özgeçmiş</a></li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Şehrim </a> 
+                     <ul class="dropdown-menu bg-dark">
+                       <li class="nav-item active "><a class="bg-dark linkler text-light" href="Kastamonu.html">Kastamonu</a></li>
+                       <li class="nav-item active"><a class="bg-dark linkler text-light" href="Mirasimiz.html">Mirasımız</a></li>
+                     </ul>
+                </li>  
+                <li class="nav-item active linkler"><a style=" margin-right: 20px;text-decoration: none;" class="nav-link" href="Iletisim.html">İletişim</a></li>
+                <li class="nav-item active "><a style=" margin-right: 20px;" class="loginn nav-link" href="Login.html" id="Login_Tusu" >Giriş Yap</a></li>
+              </ul>
+            </div>
+            
+            
+        </nav>
+  </body>          
+          <!--------------------------------------------NAV BİTİŞİ-------------------------------------------->  
+
+          <form style="margin-top: 5%;" name="iletisimForm" method="POST" onsubmit="return iletisimKontrol(this)">
+            <div class="form-group">
+              <label style="color: white;">İsim:</label>
+              <input type="text" name="isim" class="form-control" placeholder="Adınızı girin" autocomplete="off">
+              <p id="isimKontrol"></p>
+            </div>
+            <div class="form-group">
+              <label style="color: white;">Soyisim:</label>
+              <input type="text" name="soyisim" class="form-control" placeholder="Soyadınızı girin" autocomplete="off">
+              <p id="soyisimKontrol"></p>
+            </div>
+            <div class="form-group">
+                <label style="color: white;">E-mail:</label>
+                <input type="mail" name="email" class="form-control" placeholder="E posta adresinizi girin" autocomplete="off">
+                <p id="emailKontrol"></p>
+            </div>
+
+            <div class="form-group">
+                <label style="color: white;">Mesajınız:</label>
+                <textarea rows="10" cols="50" class="form-control"name="mesaj"></textarea>
+                <p id="mesajkontrol"></p>
+            </div>
+            
+            <button type="submit" name="_next" class="btn btn-primary">Gönder</button>
+          </form>
+
+</body>
+</html>

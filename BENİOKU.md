@@ -1,0 +1,2 @@
+KULLANICI ADI:ilkrrkck
+ŞİFRE:123456

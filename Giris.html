@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <title>Giriş</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  
+    
+</head>
+<body style="background-color: rgb(63,62,63);margin-top: 3%;" >
+    
+  <body  class=" col-sm-12 col-md-12 col-lg-12 col-xl-12  container">
+        <!--------------------------------------------NAV BAŞLANGICI-------------------------------------------->
+        <nav style="position: fixed;" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a style="margin-right: 3%;" href="Hakkımda.html" class="navbar-brand" href="#"><i style="font-size: x-large;" class="fa fa-home"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Linkler -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+              <ul class="navbar-nav"> 
+                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link ustMenuEleman" href="Hakkımda.html">Hakkımda</a></li>
+                <li class="nav-item active"><a style=" margin-right: 20px;" class="nav-link" href="Ozgecmis.html">Özgeçmiş</a></li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Şehrim </a> 
+                     <ul class="dropdown-menu bg-dark">
+                       <li class="nav-item active "><a class="bg-dark linkler text-light" href="Kastamonu.html">Kastamonu</a></li>
+                       <li class="nav-item active"><a class="bg-dark linkler text-light" href="Mirasimiz.html">Mirasımız</a></li>
+                     </ul>
+                </li>  
+                <li class="nav-item active linkler"><a style=" margin-right: 20px;text-decoration: none;" class="nav-link" href="Iletisim.html">İletişim</a></li>
+                <li class="nav-item active "><a style=" margin-right: 20px;" class="loginn nav-link" href="Giris.html" id="Login_Tusu" >Giriş Yap</a></li>
+              </ul>
+            </div>
+            
+            
+        </nav>
+  </body>          
+          <!--------------------------------------------NAV BİTİŞİ-------------------------------------------->   
+
+          <div style="margin-top: 10%;" class="container">
+            <h2 style="color: white;">Giriş Sayfası</h2>
+            <form action="" method="POST" name="Giris">
+              <div class="form-group">
+                <label style="color: white;" >Kullanıcı Adı:</label>
+                <input type="text"   placeholder="Kullanıcı Adı Girin" name="kullaniciAdi" class="form-control" autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label style="color: white;">Şifre:</label>
+                <input type="password"  class="form-control"  name="sifre" autocomplete="off">
+                 
+              </div>
+              <button name="giris" class="btn btn-success btn-block" onclick="GirisKontrol()" value="GİRİŞ">Giriş</button>
+            </form>
+        </div>
+        
+          
+</body>
+             <!--------------------------------------------ALT KISIM BAŞLANGIÇ-------------------------------------------->
+             <footer style="margin-top: 18%;" class="altTaraf ">
+                <div class="text-light bg-dark footer-copyright text-center py-4">Sakarya Üniversitesi Web Teknolojileri 2019-2020 Bahar Yarıyılı Projesi              
+                </div>  
+             </footer> 
+             <footer>
+                <script src="FormKontrol.js" type="text/javascript"></script>
+                <script src="jquery.min.js"></script>
+                <script src="bootstrap.bundle.min.js"></script>
+             </footer>
+</html>  
